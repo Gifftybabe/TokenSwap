@@ -58,7 +58,7 @@ contract OrderedSwap {
         if (_amountDeposited <= 0) revert ZeroAmountNotAllowed();
 
         // Ensure tokenExpected is a contract
-        if (!_tokenExpected.isContract()) revert TokenAddressIsNotAContract();
+        // if (!IERC20(_tokenExpected).isContract()) revert TokenAddressIsNotAContract();
 
         if (IERC20(_tokenDeposited).balanceOf(msg.sender) < _amountDeposited)
             revert InsufficientTokensFromSender();

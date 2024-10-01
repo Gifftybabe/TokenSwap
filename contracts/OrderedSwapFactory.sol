@@ -12,10 +12,10 @@ contract SwapFactory {
 
         allSwaps.push(newSwap);
 
-        return length_ = allSwaps.length;
+        length_ = allSwaps.length;
     }
 
-    function getAllSwaps() external view returns (address[] memory) {
+    function getAllSwaps() external view returns (OrderedSwap[] memory) {
         return allSwaps;
     }
 }

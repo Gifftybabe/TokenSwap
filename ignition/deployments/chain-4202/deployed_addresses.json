@@ -1,0 +1,6 @@
+{
+  "ContractsModule#GUZToken": "0x4125851438105538853c447948306e0c550a3E54",
+  "ContractsModule#OrderedSwap": "0x02762992A9Ba48fbDBcc3ef9b62C765eFecb3B2a",
+  "ContractsModule#SwapFactory": "0x611A1185Aa60de5f41f88EEEd4dcF76E7b4246b4",
+  "ContractsModule#W3BToken": "0x83e5ffB184F14a946eFA05D35707c48d89d8D95a"
+}

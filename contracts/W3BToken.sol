@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.26;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract W3BToken is ERC20("Token", "ARD") {
+contract W3BToken is ERC20("W3B Token", "W3B") {
     // The address of the contract owner
     address public owner;
 
